@@ -1,0 +1,56 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "userId":1,
+      "name": "3 Bedroom Apartment",
+      "price": 80000,
+      "location": "Aguda, Surulere",
+      "duration": 1,
+      "durationTerm": "year",
+      "ratings": 4.97,
+      "isAvailable":true,
+      "preview":"../assets/apartment_1.png",
+      "reviews":4.2
+    },
+    {
+      "id": 2,
+      "userId":2,
+      "name": "3 Bedroom Apartment",
+      "price": 80000,
+      "location": "Aguda, Surulere",
+      "duration": 1,
+      "durationTerm": "year",
+      "ratings": 4.97,
+      "isAvailable":true,
+      "preview":"../assets/apartment_2.png",
+      "reviews":4.2
+    },
+    {
+      "id": 3,
+      "userId":3,
+      "name": "3 Bedroom Apartment",
+      "price": 80000,
+      "location": "Aguda, Surulere",
+      "duration": 1,
+      "durationTerm": "year",
+      "ratings": 4.97,
+      "isAvailable":true,
+      "preview":"../assets/apartment_3.png",
+      "reviews":4.2
+    },
+    {
+      "id": 4,
+      "userId":4,
+      "name": "3 Bedroom Apartment",
+      "price": 80000,
+      "location": "Aguda, Surulere",
+      "duration": 1,
+      "durationTerm": "year",
+      "ratings": 4.97,
+      "isAvailable":true,
+      "preview":"../assets/apartment_4.png",
+      "reviews":4.2
+    }
+  ]
+}

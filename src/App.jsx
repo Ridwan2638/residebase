@@ -1,15 +1,19 @@
 
 import './App.css'
-import Preloader from './preloader/Preloader'
+import Header from './components/Header'
+import PropertyListing from './pages/PropertyListing'
+// import Preloader from './preloader/Preloader'
+PropertyListing
+
 
 
 function App() {
 
   return (
-    <>
-    <Preloader />
+    <div>
+    <PropertyListing />
      
-    </>
+    </div>
   )
 }
 

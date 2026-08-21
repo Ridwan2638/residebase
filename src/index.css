@@ -7,3 +7,9 @@
   /* --font-"inter", sans-serif; */
 }
 
+@layer base{
+  body{
+    /* mobile view background color set to #FFFFFF */
+    background-color:#FFFFFF;
+  }
+}
