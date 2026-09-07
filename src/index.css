@@ -1,15 +1,53 @@
 @import "tailwindcss";
 
-@theme{
-  --breakpoint-*: initial;  /*for mobile screen sizes */
-  --breakpoint-tablet:768px; /*for tablet screen sizes */
-  --breakpoint-desktop:1024px; /*for desktop screen sizes */
-  /* --font-"inter", sans-serif; */
+@theme {
+  --breakpoint-*: initial; /*for mobile screen sizes */
+  --breakpoint-tablet: 768px; /*for tablet screen sizes */
+  --breakpoint-desktop: 1024px; /*for desktop screen sizes */
+  --font-inter: "inter", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
 }
 
-@layer base{
-  body{
+@layer base {
+  body {
     /* mobile view background color set to #FFFFFF */
-    background-color:#FFFFFF;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction:column;
+    min-height: 100dvh;
+  
+  }
+
+  @media (width >= 1024px) {
+    body {
+      /* For desktop screen */
+      background-color: #F5F4F4;
+    }
+  }
+}
+@layer utilities{
+  .checkbox{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: #000000;
+    opacity: 50%;
+    width: 16px;
+    height: 16px;
+    border-radius:4px
+  }
+  .footer-heading{
+    font-family: inter;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 24px
+  }
+  .footer-link{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 16px
   }
 }
